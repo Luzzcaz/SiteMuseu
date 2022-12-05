@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #000000;
+    --cor2: #e9e6ff;
+    --cor3: #ffcb47;
+    --cor4: #1f2f16;
+    --cor5: #2274a5;
+    --cor6: #ff331f;
+    --cor7: #FFFFFF;
+}
+
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+
+    width: 1272px;
+    border: 10.5px groove var(--cor1);
+    margin: auto;
+    padding: 20px;
+    background-color: var(--cor5);
+    border-radius: 2.5%;
+
+}
+
+nav > a{
+    margin: 120px;
+    text-decoration: solid;
+}
+
+nav > a:hover{
+    color: var(--cor2);
+    background-color: var(--cor4);
+    padding: 1px;
+    transition-property: inherit;
+    transition-duration: 1.5s;
+    border-radius: 2%;
+
+}
+
+main{
+    color: var(--cor2);
+    border: 2.5px solid var(--cor2);
+    width: 1200px;
+    margin: auto;
+    padding: 1px 5px 5px 5px;
+    box-shadow: var(--cor4) 15px 10px 20px 15px ;
+    margin-bottom: 50px;
+    
+}
+body {
+    background-color: var(--cor4);
+}
+
+ul {
+    background-color: var(--cor4);
+}
+
+li {
+    color:var(--cor2);
+    background-color: var(--cor1);
+    text-indent: 5px;
+}
+
+.sobrer{
+    text-align: center;
+}
+h1 {
+    color: var(--cor7);
+    background-color:var(--cor5);
+    text-align: center
+}
+
+h2 {
+    color: var(--cor7);
+    background-color:var(--cor5);
+}
+
+h3 {
+    color: var(--cor7);
+    background-color:var(--cor5);
+}
+
+a {
+    color: var(--cor3);
+    margin: 100px;
+    text-decoration: solid;
+}
+
+legend {
+    color: var(--cor3);
+}
+
+label {
+    color: var(--cor2);
+}
+.textimg{
+    text-align: center;
+}
+
+.titulo1{
+    text-align: center;
+    border-radius: 10;
+}
+
+ol{
+    color: var(--cor2);
+    padding-bottom: 10px;
+    line-height: 2em;
+    text-align: center;
+    text-indent: 4px;
+    list-style-position: inside;
+}
+form {
+    width: 50%;
+    margin: 40px 0;
+    border: 5px solid var(--cor6);
+    padding: 20px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin: 10px;
+    text-decoration: solid;
+    text-indent: 4px;
+
+}
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+#corpo video{
+        width: 750px;
+        margin:0 auto;
+        display: block;
+    }
+    .museu img{
+        display: inline;
+        margin: 0px 0px 0px 15%;
+        width: 800px;
+        height: 350px;
+    }
